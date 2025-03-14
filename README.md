@@ -3,6 +3,13 @@
 Project to predict fake vs real news from a data set of news headlines, attached in dataset folder. We trained the model on data.cvs, then predicted real or fake on validation_data.csv.
 
 The most succesful model was Logistic Regression, with 'bag of words' word representation. 
+	precision	recall	f1-score	support
+0	0.9514131470308034	0.9266934735539747	0.9388906298965841	3233.0
+1	0.9280291527482539	0.9523215955126207	0.9400184558597354	3209.0
+accuracy	0.9394597950946911	0.9394597950946911	0.9394597950946911	0.9394597950946911
+macro avg	0.9397211498895286	0.9395075345332977	0.9394545428781598	6442.0
+weighted avg	0.9397647090220016	0.9394597950946911	0.9394524419915473	6442.0<img width="501" alt="image" src="https://github.com/user-attachments/assets/be4c4122-8014-41fa-bfd0-a73e9e13b605" />
+
 
 Final result:
 Accuracy: 94.74% – The model correctly classified news articles in 94.74% of cases.
