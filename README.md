@@ -1,6 +1,6 @@
 
 ## Predict Fake News 
-Project to predict fake vs real news from a data set of news headlines.
+Project to predict fake vs real news from a data set of news headlines, attached in dataset folder. We trained the model on data.cvs, then predicted real or fake on validation_data.csv.
 
 The most succesful model was Logistic Regression, with 'bag of words' word representation. 
 
