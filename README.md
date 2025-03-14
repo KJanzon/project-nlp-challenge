@@ -3,6 +3,7 @@ Project to predict fake vs real news from a data set of news headlines, attached
 
 ## Final result:
 Accuracy: 94.74% – The model correctly classified news articles in 94.74% of cases.
+
 F1-Score (Balance of Precision & Recall):
 Fake news: 94.86%
 Real news: 94.62%
