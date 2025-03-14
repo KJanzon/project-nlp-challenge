@@ -9,7 +9,7 @@ Fake news: 94.86%
 Real news: 94.62%
 
 ## Analysis
-Several data cleaning techniques were tried, but fake news could be predicted better when not cleaning the data. Presumable fake news has more poor formatting in it, such as several exclamation marks.
+Several data cleaning techniques were tried, but fake news could be predicted better when not cleaning the data. Presumable fake news has more poor formatting in it, such as several exclamation marks. We also tried stemming and lemmitization, but important context was lost when applying these techniques, so accuracy went down.
 ![unnamed (1)](https://github.com/user-attachments/assets/ecbe4242-cb56-4e14-81e7-010bc2588875)
 
 Certain words proved to be important predictors of fake vs real news. These words were the strongest predictors for each class:
