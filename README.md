@@ -2,13 +2,13 @@
 ## Predict Fake News 
 Project to predict fake vs real news from a data set of news headlines, attached in dataset folder. We trained the model on data.cvs, then predicted real or fake on validation_data.csv.
 
-#Final result:
+# Final result:
 Accuracy: 94.74% – The model correctly classified news articles in 94.74% of cases.
 F1-Score (Balance of Precision & Recall):
 Fake news: 94.86%
 Real news: 94.62%
 
-#Analysis
+# Analysis
 Several data cleaning techniques were tried, but fake news could be predicted better when not cleaning the data. Presumable fake news has more poor formatting in it, such as several exclamation marks.
 ![unnamed (1)](https://github.com/user-attachments/assets/ecbe4242-cb56-4e14-81e7-010bc2588875)
 
