@@ -1,7 +1,8 @@
 # Predict Fake News 
-Project to predict fake vs real news from a data set of news headlines, attached in dataset folder. We trained the model on data.cvs, then predicted real or fake on validation_data.csv.
+Project to predict fake vs real news from a data set of news headlines, attached in dataset folder. We trained the model on data.cvs, then predicted real or fake on validation_data.csv. Several machine learning models were tested and evaluated: Logistic Regression, Naive Bayes, Support Vector Macine, XGBoost and Random Forest.
 
 ## Final result:
+Best result with a Logistic Regression model
 Accuracy: 94.74% – The model correctly classified news articles in 94.74% of cases.
 
 F1-Score (Balance of Precision & Recall):
